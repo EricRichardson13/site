@@ -29,6 +29,9 @@ div.bg {
 }
 .btn
 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-color: #191919; /* Green */
   border: none;
   color: white;
