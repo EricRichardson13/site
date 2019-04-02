@@ -4,14 +4,14 @@ body
   color: white;
   margin: 0;
 }
-div.bg {
+div.e {
   width: 100px;
   height: 100px;
   display: block;
   position: relative;
 }
 
-div.bg::after {
+div.bg {
   content: "";
   background: url(http://1.bp.blogspot.com/-9qOc2_1PxJ4/VofIVRCTpkI/AAAAAAAABSM/tFbGy0M9Z_s/s1600/Desktop-backgrounds-wallpapers-stock-royalty-free-images-pictures-images-photos-shutterstock-free-download-Pictures%2B%252815%2529.jpg);
   opacity: 0.5;
