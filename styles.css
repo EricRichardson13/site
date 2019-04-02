@@ -29,9 +29,6 @@ div.bg {
 }
 .btn
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   background-color: #191919; /* Green */
   border: none;
   color: white;
@@ -40,4 +37,8 @@ div.bg {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+div.btnContainer
+{
+  float: center;
 }
