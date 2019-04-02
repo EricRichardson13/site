@@ -4,9 +4,21 @@ body
   color: white;
   margin: 0px;
 }
-.bg
-{
+div {
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(http://1.bp.blogspot.com/-9qOc2_1PxJ4/VofIVRCTpkI/AAAAAAAABSM/tFbGy0M9Z_s/s1600/Desktop-backgrounds-wallpapers-stock-royalty-free-images-pictures-images-photos-shutterstock-free-download-Pictures%2B%252815%2529.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
