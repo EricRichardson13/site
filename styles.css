@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 body
 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
   background-color: #c6c6c6;
   color: white;
