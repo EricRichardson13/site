@@ -3,8 +3,8 @@ body
 {
   font-family: 'Playfair Display', serif;
   text-align: center;
-  background-color: #c6c6c6;
-  color: black;
+  background-color: white;
+  color: #292826;
   margin: 0;
 }
 div.e {
@@ -13,22 +13,13 @@ div.e {
   display: block;
   position: absolute;
 }
-
-div.bg {
-  content: "";
-  background-color: black;
-  background: url(http://1.bp.blogspot.com/-9qOc2_1PxJ4/VofIVRCTpkI/AAAAAAAABSM/tFbGy0M9Z_s/s1600/Desktop-backgrounds-wallpapers-stock-royalty-free-images-pictures-images-photos-shutterstock-free-download-Pictures%2B%252815%2529.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+div.firstThing {
   position: absolute;
-  z-index: -1;   
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  top: 50px;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: #F9D342;
 }
 .btn
 {
@@ -43,13 +34,52 @@ div.bg {
 }
 div.btnContainer
 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    margin:0px;
-    padding:0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #292826;
+}
+a.normal
+{
+ text-decoration: none;
+ color: #F9D342;
+ padding: 12px;
+ font-size: 25px;
+}
+a.selected
+{
+  text-decoration: underline;
+  color: #F9D342;
+  padding: 12px;
+  font-size: 25px;
+}
+div.images
+{
+  position: absolute;
+  background-color: #292826;
+  top: 300px;
+  width: 100%;
+  height: 300px;
+}
+div.card {
+  display: inline-block;
+  width: 175px;
+  background-color: #F9D342;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+div.aboutme {
+  background-color: #F9D342;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 650px;
 }
